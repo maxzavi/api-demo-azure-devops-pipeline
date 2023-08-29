@@ -203,7 +203,7 @@ cat azure-pipelines-publisher.json | base64 -w 0
 or in local:
 
 ```cmd
-cat /Users/maxzavaleta/Downloads/temporal-283603-553de9da79ad.json|base 64
+cat /Users/maxzavaleta/Downloads/temporal-283603-553de9da79ad.json|base64
 ```
 ServiceAccountKey = *Result last command*
 
