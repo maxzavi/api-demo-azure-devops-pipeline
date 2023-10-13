@@ -1,4 +1,6 @@
 const express = require('express');
+require('dotenv').config()
+
 
 const app = express();
 
@@ -28,5 +30,6 @@ app.post('/', (rq,rs)=>{
 
 //Listener
 app.listen(3000, ()=>{
+    console.log(`Conected to db: ${process.env.DB_USER}@${process.env.DB_HOST}ç`);
     console.log("Listen in port 3000");
 });

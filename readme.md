@@ -34,6 +34,42 @@ app.listen(3000, ()=>{
 });
 ```
 
+## Nodemon
+
+Add nodemon as a development dependency:
+
+```cmd
+npm i -D nodemon
+```
+
+Add npm run command in package.json file:
+
+```json
+  "scripts": {
+
+
+    "nodemon": "nodemon index"
+  },
+```
+
+Run watch:
+
+```cmd
+npm run nodemon
+```
+
+## Dotenv
+
+Add dotenv dependency:
+
+```
+npm i dotenv
+```
+
+Add file .env in path with environments variables
+
+
+
 ## Docker
 
 Add Dockerfile:
